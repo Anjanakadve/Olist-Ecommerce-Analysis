@@ -42,7 +42,7 @@ This project leverages a modern data stack to handle ETL, advanced analytics, an
 ### 1. Executive KPIs & Retention
 * **Customer Base:** The marketplace serves **99.44K total customers**, with **75.65K active ordering customers**.
 * **Dormancy Alert:** Identified **41K inactive customers** (no purchase in 12 months), representing a significant opportunity for re-engagement.
-* **Annual Churn:** A total of **23,788 customers churned**, requiring a deeper look into loyalty programs and retention strategies.
+* **Churn Customers:** A total of **23,788 customers churned**, requiring a deeper look into loyalty programs and retention strategies.
 
 ### 2. Operational & Category Performance
 * **Logistics Bottleneck:** The average delivery time is **262.12 hours**, a key metric that directly impacts customer satisfaction and review scores.
@@ -53,10 +53,6 @@ This project leverages a modern data stack to handle ETL, advanced analytics, an
 * **Market Basket Analysis:** Discovered frequently purchased product pairings to drive **cross-selling** and optimized bundling strategies.
 * **Seasonality & Pricing:** Detected recurring monthly demand cycles and analyzed how price fluctuations influenced buying behavior over the last year.
 * **Local Market Opportunity:** Identified high-rated sellers (>4.5 score) with low local penetration (<10% in-state sales) across the 27 states.
-
-### 4. Strategic Simulations
-* **Promotion Modeling:** Simulated a "BOGO" promo on top 10 products, calculating the trade-off between doubled volume and reduced profit margins.
-* **Fulfillment Logistics:** Calculated the average time for each stage of the order lifecycle to reduce the **262.12h delivery average**.
 
 ## 💡 Strategic Recommendations
 
@@ -77,11 +73,6 @@ Based on the analysis of the Olist ecosystem, the following actions are recommen
 ### 4. Hyper-Local Seller Growth
 * **The Problem:** High-rated sellers (>4.5) are failing to capture their local state markets (<10% local sales).
 * **The Solution:** Introduce "Local Hero" badges or reduced shipping rates for in-state purchases. This encourages customers to buy from nearby sellers, which simultaneously solves the long delivery time issue.
-
-### 5. Strategic Bundling (BOGO)
-* **The Problem:** Need to increase Average Order Value (AOV).
-* **The Solution:** Use the **BOGO (Buy One Get One)** simulation to bundle the Top 10 selling products with slow-moving inventory. This clears warehouse space while maintaining a healthy overall profit margin.
-
 
 ## 🧠 Skills & Knowledge Gained
 
